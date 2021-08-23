@@ -1,6 +1,6 @@
 # Instrucciones
 - Hacer un fetch de la rama main o descargar los archivos nuevos y agregarlos a su rama
-- Crear una pagina que nos diga si un año es viciesto cuando hagamos clic, para esto:
+- Crear una pagina que nos diga si un año es biciesto cuando hagamos clic, para esto:
     - Agregar un tag **input** en donde agregaremos el año.
     - Agregar un tag **button** que sea el trigger para la validacion.
     - Tener la logica de la validacion en un archivo *js*.
