@@ -1,9 +1,9 @@
 # Len_Interpretados_2021
 Repositorio donde veremos las tareas y recibiremos los trabajos.
 
-# Instrucciones
-1. Clonar/descargar el repo con la tarea asignada
-2. Crear una nueva rama con su **nombre-tag**: Diana-dino, Angel-SrAlmeja, Oscar-Shura, etc.
+# Reglas del repo      
+1. Pueden hacer fetch de main y/o descargarlo.
+2. Solo hacer push de su rama
 3. Realizar en la rama los cambios solicitados en la tarea.
 4. Hacer push unicamente de la rama: git push origin *nombre-rama*
 
