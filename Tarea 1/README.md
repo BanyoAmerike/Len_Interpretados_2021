@@ -5,7 +5,7 @@
 
 # REQUERIMIENTO
 <p>
-  <img src="/assets/requerimiento.PNG"/>
+  <img src="assets/requerimiento.png"/>
 </p>
   
 
