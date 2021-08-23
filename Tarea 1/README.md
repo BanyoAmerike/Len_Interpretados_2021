@@ -4,7 +4,7 @@
 3. Una vez que se identifique, se debe mostrar en pantalla.
 
 # REQUERIMIENTO
-![Requerimiento Visual](/assets/requerimiento.PNG)
+![Requerimiento Visual](..Len_interpretados_2021/Tarea 1/assets/requerimiento.PNG)
 
 # REFERENCIAS
 [Cheatsheet html5/css/js](https://lenguajehtml.com/cheatsheets/)
