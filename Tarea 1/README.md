@@ -4,8 +4,10 @@
 3. Una vez que se identifique, se debe mostrar en pantalla.
 
 # REQUERIMIENTO
-En seguida se muestra la siguiente imagen
-![Requerimiento Visual](../Len_interpretados_2021/Tarea 1/assets/requerimiento.PNG)
+<p>
+  <img src="/assets/requerimiento.PNG"/>
+</p>
+  
 
 # REFERENCIAS
 [Cheatsheet html5/css/js](https://lenguajehtml.com/cheatsheets/)
