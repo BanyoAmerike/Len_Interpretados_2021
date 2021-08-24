@@ -1,0 +1,9 @@
+console.log(typeof undefined)  //null, undefined
+console.log(typeof true)  //boolean
+console.log(typeof 42)  //number
+console.log(typeof "42")  
+console.log(typeof{life:42}
+console.log(typeof null)
+
+var a;
+typeof a;
