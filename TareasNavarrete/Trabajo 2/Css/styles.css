@@ -1,0 +1,26 @@
+h1 {
+    color: #A06535;
+    font-weight: 400;
+    text-align: center;
+}
+
+b {
+ font-weight: 600;   
+}
+
+body {
+    background-color: #bc8e;
+}
+
+div.inicio {
+    padding-top: 20%;
+    text-align: center;
+}
+
+div.botton {
+    text-align: center;
+}
+
+button {
+    margin: 1em;
+}
