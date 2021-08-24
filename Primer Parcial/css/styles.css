@@ -1,0 +1,23 @@
+﻿h1
+{
+    color: #A06535;
+    font-weight: 400;
+    text-align: center
+}
+b
+{
+    font-weight: 600;
+}
+body
+{
+    background-color: #ffd800;
+}
+div.inicio
+{
+    padding-top: 20%;
+    text-align: center;
+}
+div.boton
+{
+    text-align: center;
+}
