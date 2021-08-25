@@ -9,18 +9,20 @@
     </script>
 </head>
 <body>
+    <script scr="main.js"></script>
+
     <div class="inicio">
         <h1>
             Te dire si un año es
         <b>biciesto</b>
-         </h1>
-    <input id="year">
+        </h1>
+        <input id="year" type="number" onkeydown="key_validation()" > 
     <div>
 
     <div class="boton">
         <button type="button" onclick="leap()">Comprobar año</button>
     </div>
 
-    <script scr="main.js"></script>
+    
 </body>
 </html>

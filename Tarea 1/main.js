@@ -8,14 +8,31 @@
 
     
 
-    function leap(){
+function leap(){
         let input_value = document.getElementById("year").value;
-        let ver = 2020 % 4; 
+        let ver = input_value % 4; 
         if (ver ==0){
-            console.log("es biciesto");
+            alert("El año " + input_value + "es biciesto");
+
         }
+}
 
+function key_validation(event){
+    //respaldar la informacion antes de biciestoue se agregrue la tecla
 
+    var input_backup = document.getElementById("year").value;
 
-        alert(' Este es el valor del imput' + input_value + "El año es biciesto");
+    //se hace la validacion de que la tecla sea numerica   
+    let dato = parseInt(event.key);
+
+    if(!Number.isInteger(dato)){
+        //se debe regresar la informacion respaldada
+        alert("Escribe unicamente numeros");
+        let input_year = document.getElementById("year");
+        innput_year.vaalue = input_backup
     }
+}
+
+function mouse_click(event){
+    alert("acabas de hacer click en el inpt");
+}
