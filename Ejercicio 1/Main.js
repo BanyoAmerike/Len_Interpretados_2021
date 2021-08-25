@@ -13,10 +13,24 @@
 
   function leap () {
       let imput_Value = document.getElementById("year").value
-      let ver = 2020 % 4;
+      let ver = input_value % 4;
       if (ver == 0){
-          alert("El año " + "es biciesto")
+          alert("El año " + input_value + "es biciesto");
       }
   }
 
-  alert("Wenas joven");
+  function key_validation(event){
+
+    //respaldar la informacion antes de que se agregue la tecla
+
+
+    // Se hace la validacion que la tecla sea numerica
+    let dato = parseInt(event.key);
+    
+    if(!Number.isInteger(dato)){
+        //Se debe regresar la informacion respaldada
+        alert("Solo escribe numeros");
+    }
+    
+  }
+
