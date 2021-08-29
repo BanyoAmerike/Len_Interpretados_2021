@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class = instruction>
+      <h1>
+          <em>
+            Perimetro de una figura
+          </em>      
+      </h1>
+
+      <h2>
+        <b>Seleccione la cantidad de lados </b>
+      </h2>
+
+      <input id = "sides" type = "range" min = "3" max = "10" oninput="this.nextElementSibling.value = this.value" >
+      <output>7</output>
+    </div>
+
+       <button type = "button" onclick = "addFiles()" >Verificar</button>
+
+       <h3>
+        <div id = "one"> </div>
+        <div id = "two"> </div>
+        <div id = "three"> </div>
+        <div id = "four"> </div>
+        <div id = "five"> </div>
+        <div id = "six"> </div>
+        <div id = "seven"> </div>
+        <div id = "eight"> </div>
+        <div id = "nine"> </div>
+        <div id = "ten"> </div>
+       </h3>
+    
+    
+
+    <div id = "nextButton">
+        
+    </div>
+
+    <div id = "showFigure"> 
+
+    </div>
+
+    <div id = "showPerimeter"> 
+
+    </div>
+
+    <script src = "Js/MoreFiles.js" ></script>
+    
+    
+</body>
+</html>
