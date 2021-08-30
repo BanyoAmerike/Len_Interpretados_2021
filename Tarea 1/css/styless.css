@@ -1,0 +1,73 @@
+body
+{
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    background-color: rgb(20, 20, 20);
+    color: chartreuse;
+}
+h2
+{
+    font-size: medium;
+}
+
+button.create
+{
+    box-shadow: 3px 4px 0px 0px #3e7327;
+	background:linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
+	background-color:#77b55a;
+	border-radius:9px;
+	border:1px solid #4b8f29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:10px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #5b8a3c;
+}
+
+button.create:hover
+{
+    background:linear-gradient(to bottom, #72b352 5%, #77b55a 100%);
+	background-color:#72b352;
+}
+
+button.create:active
+{
+    position:relative;
+	top:1px;
+}
+
+button.perimeter
+{
+    box-shadow: 3px 4px 0px 0px #3e7327;
+	background:linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
+	background-color:#77b55a;
+	border-radius:9px;
+	border:1px solid #4b8f29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:10px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #5b8a3c;
+}
+button.perimeter:hover
+{
+    background:linear-gradient(to bottom, #72b352 5%, #77b55a 100%);
+	background-color:#72b352;
+}
+
+button.perimeter:active
+{
+    position:relative;
+	top:1px;
+}
+
+div.buttons
+{
+    padding-top: 17px;
+}

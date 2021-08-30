@@ -1,12 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<html lang="en">    
+    <head>
+        <meta charset="UTF-8">
+        <title>T1Diana</title>  
+        <link rel="stylesheet" type="text/css" href="css/styless.css">
+    </head>
+    <body>
+        <div class = "inicio">
+            <h1>
+                <b>
+                    Calculadora de figuras
+                </b>
+            </h1>
+            <h2>
+                Indica el numero de lados que quieres que tenga tu figura y el tamaño de sus caras, en caso del círculo escriba su radio.
+            </h2>
+        </div>  
+        <div>
+            <input id ="input" type="number" onkeydown="key_validation(event)">
+        </div>
+            <div class = "buttons">  
+                <button class="create" type = "button" onclick = "CreateFigure()"> Crear Figura </button>
+                <button class="perimeter" type = "button" onclick = "CalculatePerimeter()"> Perimetro </button>
+            </div>
+        <div class="resultados"> 
+           
+            <p><b>Figura</b></p>
+            <p id = "resultadoTipo"></p>
+            
+            <p><b>Perimetro</b></p>
+            <p id = "resultadoPerimetro"></p>
+        </div>
+        <script src="js/main.js"></script>
+    </body>
 </html>
