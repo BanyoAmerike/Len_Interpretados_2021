@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="inicio">
+        <h1>
+            Indica el número de lados de tu figura
+        </h1>
+    </div>
+    <div>
+        <input id="figure" type="number" onkeydown="key_validation(event)">
+    </div>
+    <div class="perimetro">
+        <h1>
+            Indica la longitud de sus lados
+        </h1>
+    </div>
+    <div>
+        <input id="perimeter" type="number" onkeydown="key_validation(event)">
+    </div>
+    <div class="buttonP">
+        <button type="button" onclick="Perimeter()">Crear Figura y Calcular Perimetro :D</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
