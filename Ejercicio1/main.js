@@ -17,19 +17,13 @@ function leap(){
 
 function key_validation(event){
 
-    //Respaldar informacion 
-var input_backup = document.getElementById("year").value;
+var tecla = parseInt(event.key); 
+var input_value = document.getElementById("year").value;
 
-   let dato = parseInt (event.key);
-
-
-   if (!Number.isInteger(dato)){
-
-    //Se debe regresar la informacion respaldada
-       alert("Escribe solo numeros por favor");
-       let input_year = document.getElementById("year");
-       input_year.value = input_backup;
-   } else {
-    //Se regresa el respaldo con el nuevo dato 
-   }
+if (Number.isNaN(tecla)){
+    alert("La tecla no es un Número, ingresa solo número por favor");
+    let newValue = input_value.replace(event.key,"");
+    document.getElementById("year").value = newValue;
+    console.log(typeof input_value);
+}
 }
