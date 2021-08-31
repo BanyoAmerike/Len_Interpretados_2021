@@ -3,54 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link rel = "stylesheet" type = "text/css" href = "Css/Styles.css" >
 </head>
 <body>
 
-    <div class = instruction>
+    <div class = "instruction">
       <h1>
           <em>
-            Perimetro de una figura
+            Perímetro de una figura
           </em>      
       </h1>
 
-      <h2>
-        <b>Seleccione la cantidad de lados </b>
-      </h2>
+      <div class = "ache2" id = "escrito">
+        <b> Seleccione la cantidad de lados </b>
+      <div>
 
-      <input id = "sides" type = "range" min = "3" max = "10" oninput="this.nextElementSibling.value = this.value" >
-      <output>7</output>
+      <h3>
+        <input id = "sides" type = "range" min = "3" max = "10" oninput="this.nextElementSibling.value = this.value" >
+        <output>7</output>
+      </h3>
+      
+      
     </div>
 
-       <button type = "button" onclick = "addFiles()" >Verificar</button>
+    <div class = "firstbutton">
+      <button id = "buttonOne" type = "button" onclick = "addFiles()" >Verificar</button>
+    </div>
+         
+    <div class = "theInstructionTwo" id = "moreInstruction">
 
-       <h3>
-        <div id = "one"> </div>
-        <div id = "two"> </div>
-        <div id = "three"> </div>
-        <div id = "four"> </div>
-        <div id = "five"> </div>
-        <div id = "six"> </div>
-        <div id = "seven"> </div>
-        <div id = "eight"> </div>
-        <div id = "nine"> </div>
-        <div id = "ten"> </div>
-       </h3>
-    
-    
+    </div>
 
-    <div id = "nextButton">
+     <div class="firstLine">
+      <span id = "one"> </span>
+      <span id = "two"> </span>
+      <span id = "three"> </span>
+     </div>
+      
+
+     <div class = "secondLine">
+      <span  id = "four"> </span>
+      <span id = "five"> </span>
+      <span id = "six"> </span>
+     </div>
+      
+     <div class= "thirdLine">
+      <span id = "seven"> </span>
+      <span id = "eight"> </span>
+      <span id = "nine"> </span>
+     </div>
         
-    </div>
+      <div class="finalLine" id = "ten"> 
 
-    <div id = "showFigure"> 
+      </div>
 
-    </div>
 
-    <div id = "showPerimeter"> 
+      
+    
+      <div class = "finalText" id = "showFigure"> 
+    
+      </div>
+    
+      <div class = "finalText" id = "showPerimeter"> 
+    
+      </div>
 
-    </div>
+      <div class = "otherButton" id = "nextButton">
+        
+      </div>
+    
 
-    <script src = "Js/MoreFiles.js" ></script>
+    <script src = "Js/MoreFiles.js" > </script>
     
     
 </body>

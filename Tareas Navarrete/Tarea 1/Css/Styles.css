@@ -1,0 +1,70 @@
+h1 {
+    color: #A06535;
+    font-size: xx-large;
+    text-align: center;
+}
+
+div.ache2 {
+    font-size: x-large;
+    text-align: center;
+}
+
+h3 {
+    font-size: x-large;
+    text-align: center;
+}
+
+div.finalLine {
+    text-align: center;
+}
+
+h5 {
+    font-size: x-large;
+    text-align: center;
+}
+
+body {
+    background-color: #bc8e;
+}
+
+div.instruction {
+    padding-top: 10%;
+    text-align: center;
+}
+
+div.firstbutton {
+    margin: 1em;
+    text-align: center;
+}
+
+div.firstLine {
+    margin: 0.5em;
+    text-align: center;
+}
+
+div.secondLine{
+    margin: 0.5em;
+    text-align: center;
+}
+
+div.thirdLine{
+    margin: 0.5em;
+    text-align: center;
+}
+
+div.finalText{
+    margin: 0.5em;
+    font-size: x-large;
+    text-align: center;
+}
+
+div.otherButton{
+    margin: 1em;
+    text-align: center;
+}
+
+div.theInstructionTwo{
+    color: #A06535;
+    font-size: X-large;
+    text-align: center;
+}
