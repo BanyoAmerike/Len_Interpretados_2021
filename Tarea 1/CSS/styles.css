@@ -1,20 +1,22 @@
 body
 {
-    
     background-color: #202031;
-
+    padding-top: 15%;
 }
-h1
+h1, h2
 {
     color: #ffbb2a;
     text-align: Center;
     font-weight: 400;
 }
 
-h2
+h3,h4,h5
 {
+    padding-block: 1%;
+    background-color:#2e2e47;
     color: #ffbb2a;
     text-align: Center;
     font-weight: 400;
 }
+
 
