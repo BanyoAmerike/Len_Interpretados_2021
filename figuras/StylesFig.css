@@ -1,0 +1,26 @@
+h1 {
+    color: #FFBA08;
+    font-weight: 400; 
+    text-align: center;
+}
+b {
+    font-weight: 600;
+}
+
+body {
+    background-color: #EEF1BD;
+}
+div.inicio {
+    padding-top: 10%;
+}
+
+div{
+    text-align: center;
+}
+div.respuesta{
+    margin: 5em;
+    color: #313B72;
+    font-size: xx-large;
+    text-align: center;
+    display: none ;
+}

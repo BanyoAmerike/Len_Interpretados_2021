@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <link  rel="stylesheet" type="text/css" href="stylesFig.css">
+        <script>
+            console.log("Estoy funcioinando?");
+        </script>
+    </head>
+    <body>
+        <div Class="inicio">
+            <h1>
+                ¿Que figura soy?.com
+                <div>Escribe la medida de tus lados coo en el siguiente ejemplo</div>
+                <div>EJEM (3,2,5)</div>
+            </h1> 
+            <input id = "lados" type = "text">
+
+            <button type="button" onclick="fig()">Ver</button>
+        </div>
+
+        <div Class = "respuesta" id="result">
+            <div>
+                Tu figura es: <label id="Figura"></label>
+            </div>
+            <div>
+                Su perimetro es de: <label id="Perimetro"></label>
+            </div>
+        </div>
+
+        <script src="mainFig.js"></script>
+        
+    </body>
+</html>
