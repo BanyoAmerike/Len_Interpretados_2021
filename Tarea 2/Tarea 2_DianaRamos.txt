@@ -1,0 +1,83 @@
+1. Mercado libre
+Framework: Grails
+Lenguajes de porgramación: Mayormente Java con algo de Node.js.
+Marco de trabajo: Spring Boot.
+
+2. LinkedIn
+Framework:Dust.js
+Lenguaje de porgramación: Front-end = Javascript  Back-end = Java.
+
+3. Paypal
+Framework: Node.js
+Lenguaje de porgramación: Front-end = Javascript   
+
+4. Facebook
+Framework: React.js
+Lenguaje de porgramación: Front-end = Javascript, Flow. Back-end = PHP Python, C++, Java.
+
+5. Pinterest
+Framework: Django
+Lenguaje de porgramación: Front-end = Javascript, Back-end = Python
+
+6. WordPress
+Framework: bbPress
+Lenguaje de porgramación: Front-end = Javascript  Back-end = PHP.
+
+7. Twitch 
+Framework: AngularJS
+Lenguaje de porgramación: Front-end = Javascript 
+
+8. Wikipedia
+Framework:
+Lenguaje de porgramación: Front-end = Javascript  Back-end = PHP.
+
+9. Twitter
+Framework: Bootstrapt
+Lenguaje de porgramación: Scala C++, Ruby
+
+10. Ebay
+Framework: Marko
+Lenguaje de porgramación: Scala
+
+11. Reddit
+Framework: Pylons
+Lenguaje de programación: Lisp, Python.
+
+12. Gmail
+Framework: Closure
+Lenguaje de programación: Front-end = Javascript Back-end = Java, JavaScript y C++.
+
+13. Steam
+Lenguaje de programación: Front-end = Javascript Back-end = Java, C++.
+
+14. Aliexpress
+Framework: AngularJSL, NodeJS
+Lenguaje de programación: Front-end = Javascript, html5, CSS3 Back-end = Python y R.
+
+
+15. Youtube
+Framework: AngularJSL, Revel.
+Lenguaje de programación: Front-end = Javascript, Back-end = Java, Python y C++, Go.
+
+17. Gobierno Mexicano Web
+Lenguaje de programación: Front-end = Javascript y HTML5 , Back-end = Java, Python.
+
+18. Spotify Web
+Framework: React
+Lenguaje de programación: Front-end = Javascript Back-end = Python.
+
+19. Netflix Web
+Framework: Node.js
+Lenguaje de programación: Front-end = Javascript Back-end = Python, Java, Mysql.
+
+
+20. Discord Web
+Framework: Electron
+Lenguaje de programación: Front-end = Javascript, Elixir Back-end = Python, Rust, C++.
+
+
+
+
+
+
+
