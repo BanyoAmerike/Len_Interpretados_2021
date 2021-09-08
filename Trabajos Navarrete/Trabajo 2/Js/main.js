@@ -76,12 +76,43 @@ console.log(Marvel.members[2].heroName);
 
 //se crea un nuevo elemneto (objeto html)
 let myH1 = document.createElement('h1');
+let myH2 = document.createElement('h1');
+let myH3 = document.createElement('h1');
+let myH4 = document.createElement('h1');
+let myH5 = document.createElement('h1');
 
+for (var i = 0; i < 6; i++)
+{
+   if(i < 1)
+   {
+      myH1.innerText = Marvel.members[i].heroName;
+   }
+   if(i < 2)
+   {
+      myH2.innerText = Marvel.members[i].heroName;
+   }
+   if(i < 3)
+   {
+      myH3.innerText = Marvel.members[i].heroName;
+   }
+   if(i < 4)
+   {
+      myH4.innerText = Marvel.members[i].heroName;
+   }
+   if(i < 5)
+   {
+      myH5.innerText = Marvel.members[i].heroName;
+   }
+}
 //Se modifica el contenido del eleemento 
-myH1.innerText = "Soy un titulo desde javaScript";
+
 
 //Se agrega al documento html
 document.body.append(myH1);
+document.body.append(myH2);
+document.body.append(myH3);
+document.body.append(myH4);
+document.body.append(myH5);
 
 // Se une la propiedad del json con el titulo html
 let texTitle1 = document.getElementById("titulo1").innerText
