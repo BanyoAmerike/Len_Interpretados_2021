@@ -1,6 +1,5 @@
 function Identify(){
-        var shapes = ['circulo','Trígono','Tetrágono','Pentágono','Hexágono','Octágono','Nonágono','Decágono',
-        'Undecágono','Dodecágono','Tridecágono','Tetradecágono','Pentadecágono','Hexadecágono','Heptadecágono','Octadecágono','Eneadecágono','Icoságono']
+        var elevado = Math.pow(2,3)
       
           let input_text = document.getElementById("Input").value;
           var number_array = input_text.split(',');
