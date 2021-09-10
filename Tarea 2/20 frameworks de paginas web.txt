@@ -1,0 +1,25 @@
+
+
+Página web				Front-End				Back-End
+
+Google					JavaScript				C, C++, Phyton, Java, Go, Node
+Facebook				JavaScript				Hack, PHP (HHVM), Python, C++, Java, Erlang, D, XHP, Haskell
+YouTube					JavaScript				C, C++, Phyton, Java, Go,
+Yahoo					JavaScript				PHP
+Amazon					JavaScript				Java, C++, Perl
+Wikipedia				JavaScript				PHP
+Twitter					JavaScript				C++, Java, Scala, Ruby
+Bing					JavaScript				C++, C#
+eBay					JavaScript				Java, JavaScript, Scala
+MSN						JavaScript				C#
+Linkedin				JavaScript				Java, JavaScript, Scala
+Pinterest				JavaScript				Python, Erlang
+WordPress				JavaScript				PHP
+Steam					Java					Java, C++
+Twitch					JavaScript				Angular JS
+Reddit					Phyton					Pylons
+Gmail					JavaScript				Closure
+MercadoLibre			APIs					PHP
+Instagram				Phyton					Django
+Spotify					Phyton o JavaScript		C++, Java, Ruby		(Vi varios articulos y algunos dicen Python y otros C++ pero que los más probable es que haya iniciado en C++ y se haya trasladado a Phyton)
+Netflix					Phyton					No encontre :c

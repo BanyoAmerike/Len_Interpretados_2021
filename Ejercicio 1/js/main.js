@@ -9,14 +9,15 @@ function leap()
         alert("El año " + inpput_value + "es biciesto :D");
     }
 }
-function key_validation(event)
+function charValidation(event)
 {
-    let dato = parseInt(event.key);
-    if (!Number.isInteger(dato)) {
-        alert("Escribe puros números, gato");
-    }
-    else
-    {
+    var key = parseInt(event.key);
+    let input_value = document.getElementById("year").value;
 
+    if (Number.isNaN(key))
+    {
+        let new_value = input_value.replae(event.key, "");
+        document.getElementById("year").value = new_value;
+        console.log(typeof input_value);
     }
 }
