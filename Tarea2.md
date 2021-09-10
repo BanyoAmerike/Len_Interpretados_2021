@@ -5,7 +5,7 @@
 5.Amazon	JavaScript	      
 6.Wikipedia	JavaScript	          
 7.Twitter	  JavaScript	            
-8.Spotify                 Python
+8.Spotify        Python
 9.Netflix                 Python
 10.Uber                    Python
 11.Dropbox                Python
