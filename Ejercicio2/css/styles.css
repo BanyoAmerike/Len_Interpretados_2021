@@ -2,13 +2,13 @@ body
 {
     
     background-color: #202031;
-
 }
 h1
 {
     color: #ffbb2a;
     text-align: Center;
     font-weight: 400;
+    padding: 2%;
 }
 
 h2
@@ -16,6 +16,6 @@ h2
     color: #ffbb2a;
     text-align: Center;
     font-weight: 400;
-
+    padding: 2%;
 }
 
