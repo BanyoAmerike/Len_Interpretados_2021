@@ -1,0 +1,31 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang = "en" >
+
+    <head>
+        <meta charset="UTF-8" >
+        <title>Document</title>
+        <link rel = "stylesheet" type = "text/css" href = "{% static "css/leap_styles.css" %}" >
+        <script>
+        console.log("Hola desde el navegador");
+        </script>
+    </head>
+
+<body>
+    <div class = "inicio" >
+        <h1>
+            Te dire si un año es
+            <b>biciesto</b>
+        </h1>
+    
+        <input id = "year" type = "number" onkeydown = "Key_validation(event)" >
+    </div>
+    
+    <div class = "botton" > 
+        <button type = "button" onclick = "leap()" >Verificar año</button>
+    </div>
+
+    <script src = "js/main.js" ></script>
+</body>
+
+</html>

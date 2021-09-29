@@ -3,5 +3,11 @@ from django.http import HttpResponse
 
 # Create your views here.
 
-def firstView(Request):
+def home(request):
     return HttpResponse('Hola desde el servidor')
+
+def greetings(request):
+    return HttpResponse('Saludos desde el servidor')
+
+def leap_year(request):
+    return render(request, 'leap.html')
