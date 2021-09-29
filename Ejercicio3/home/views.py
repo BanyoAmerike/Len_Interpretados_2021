@@ -7,3 +7,6 @@ def home(request):
 
 def greetings(request):
     return HttpResponse('Saludos desde el servidor')
+
+def leap_year(request):
+    return render(request, 'leap.html')
