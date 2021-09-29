@@ -1,0 +1,37 @@
+h1{
+    color: #9137b4;
+    text-align: center;
+  } 
+h2{
+    color: #272727;
+    font-size: small;
+    text-align: center;
+  }
+b {
+    font-weight: 600;
+  }
+  
+  div.inicio{
+    padding-top: 30px;
+    text-align: center;
+  }
+  div.dh2{
+    margin-top: -10px;
+    padding-bottom: 10px;
+  }
+ 
+  div.boton{
+    margin-top: 10px;
+    text-align: center;
+  }
+  body{
+    background-color: rgb(236, 236, 227);
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  h3{
+    color: rgb(236, 236, 227);
+    text-align: center;
+  }
+
+  
