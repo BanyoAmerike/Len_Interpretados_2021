@@ -4,16 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="{% static "css/leap_styles.css" %}">
-    <script>
-        console.log("Hola desde el navegador");
-    </script>
+<link rel="stylesheet" type="text/css" href="{% static "css/leap_styles.css" %}">
+
 </head>
     <body>
         <div class="inicio"> 
                 <h1>
                 Te dire si un año es
-                <b>biciesto</b>
+                <b>bisiesto</b>
                 </h1>
             <input id="year" placeholder="Escribe un año" maxlength="5" onkeyup="key_validation(event)">
         </div>
@@ -21,6 +19,6 @@
             <button type="button" onclick="leap()">Verificar año</button>
         </div>
 
-        <!-- <script src="main.js"></script> -->
+        <script src="{% static "js/leap_main.js" %}"></script>
     </body>
 </html>
