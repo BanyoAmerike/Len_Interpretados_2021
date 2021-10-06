@@ -1,26 +1,29 @@
-
-
 function leap(){
-
     let input_value = document.getElementById("year").value;
-    let ver = input_value % 4;
-    if (ver == 0)
-    {
-        alert("El año: " + input_value + " es biciesto");
+    if (input_value%4 == 0){
+        if(input_value%100 == 0){
+            if(input_value%400 == 0){
+                alert("Es bisiesto");
+            } else {
+                alert ("No es bisiesto");
+            }
+        } else {
+            alert ("Es bisiesto");
+        }       
+    } else{
+        alert ("No es bisiesto");
     }
 }
 
-function Key_validation(event){
+function key_validation(event){
 
-    var input_backup = document.getElementById("year").value;
+var tecla = parseInt(event.key); 
+var input_value = document.getElementById("year").value;
 
-    let dato = parseInt(event.keyCode);
-
-    if(!Number.isInteger(dato))
-    {
-        alert("Escriba unicamente numeros");
-        let input_year = document.getElementById("year");
-        input_year.value = input_backup;
-    }
-    
+if (Number.isNaN(tecla)){
+    alert("La tecla no es un Número, ingresa solo número por favor");
+    let newValue = input_value.replace(event.key,"");
+    document.getElementById("year").value = newValue;
+    console.log(typeof input_value);
+}
 }
