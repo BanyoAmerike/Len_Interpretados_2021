@@ -18,7 +18,8 @@
             <b>biciesto</b>
         </h1>
     
-        <input id = "year" type = "number" onkeydown = "Key_validation(event)" >
+        <input type="text" maxlength="10" name="documento" id="year" placeholder="Solo caracteres Numericos"   class="form-control"
+              required autocomplete="off" onkeypress="return (event.charCode >= 48 && event.charCode <= 57)" min="1" />
     </div>
     
     <div class = "botton" > 
