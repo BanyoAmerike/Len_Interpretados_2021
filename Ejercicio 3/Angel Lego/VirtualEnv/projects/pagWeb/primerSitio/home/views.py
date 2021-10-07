@@ -6,4 +6,4 @@ def primerView(request):
     return HttpResponse('Hola desde el servidor')
 
 def leap_year(request):
-    return render(request, 'index.html')
+    return render(request, 'leap.html')
