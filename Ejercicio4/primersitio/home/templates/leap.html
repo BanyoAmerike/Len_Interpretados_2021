@@ -1,0 +1,44 @@
+
+{% load static%}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+            </style>
+
+        <meta charset="UTF-8">
+        <title> Document</title>
+        <link rel = "stylesheet" type="text/css" href = "{% static "css/leap_styless.css" %}">
+        <script>
+            console.log ("Hola desde el navegador");
+        </script>
+    </head>
+
+    <body>
+        <div class="inicio">
+            <h1>
+                <b>Año Biciesto</b>
+            </h1>
+            <div class="dh2">
+                <h2>
+                    Inserta un año en la caja y clickea "Submit".
+                </h2>
+            </div>
+            <input id = 'year' type="number" maxlength="2" onkeydown="key_validation(event)"> 
+        </div>
+
+        <div class="boton">
+            <button type="button" onclick="leap()">  Submit</button>
+        </div>
+
+        <div class="dh3">
+            <h3>
+                Es un año Biciesto
+            </h3>
+    
+        </div>
+        
+        <script src = "{% static "js/leap_main.js" %}"></script>
+        </body>
+</html>
