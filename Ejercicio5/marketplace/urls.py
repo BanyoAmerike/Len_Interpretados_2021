@@ -19,5 +19,5 @@ from django.urls.conf import include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('login/', include('home.urls'))
+    path('login/', include('login.urls'))
 ]
