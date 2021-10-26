@@ -1,0 +1,29 @@
+{% load static %}
+<html lang = "en"></html>
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet"type="text/css"href = {% static "css/styles.css" %}>
+    <scirpt src="{% static "js/main.js" %}"></scirpt>
+
+</head>
+<body>
+    <h1>
+        ¿ Este año es
+        <b>Bisiesto</b>
+        ?
+
+        
+    </h1>
+    <div>
+        
+        <h2>
+            <input id = "year">
+            <button type="button"onclick="alert('You clicked it')">Averigualo!</button>
+
+        </h2>
+
+    </div>
+    
+</body>
