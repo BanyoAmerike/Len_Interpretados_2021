@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang = "en" >
+
+    <head>
+        <meta charset="UTF-8" >
+        <title>Document</title>
+        <link rel = "stylesheet" type = "text/css" href = "{% static "css/styles.css" %}" >
+        <script>
+        console.log("Hola desde el navegador");
+        </script>
+    </head>
+
+<body>
+    <div class = "inicio" >
+        <h1>
+            Te dire si un año es
+            <b>biciesto</b>
+        </h1>
+
+        <input type="text" maxlength="10" name="documento" id="year" placeholder="Solo caracteres Numericos"   class="form-control"
+              required autocomplete="off" onkeypress="return (event.charCode >= 48 && event.charCode <= 57)" min="1" />
+    </div>
+
+    <div class = "botton" > 
+        <button type = "button" onclick = "leap()" >Verificar año</button>
+    </div>
+
+    <script src = "{% static "js/Main.js" %}" ></script>
+</body>
+
+</html>
