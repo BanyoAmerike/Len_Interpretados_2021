@@ -1,0 +1,45 @@
+{% load static %}
+<!DOCTYPE html >
+<html lang="es">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="UTF-8">
+<title>Mi marketplace</title>
+<link rel="stylesheet" href="% static "style.css" %}" type="text/css" media="screen" />
+</head>
+<body>
+<div id="container">
+  <div id="body_image">&nbsp;</div>
+  <div id="page_header">
+    <h1><span>NightmareStudio</span></h1>
+    <h3><span>Bienvenido a NS</span></h3>
+    <div class="clearthis">&nbsp;</div>
+  </div>
+  <div id="page_forms">
+    <div id="userlogin">
+      <div id="userlogin_header">
+        <h2><span>User Login</span></h2>
+      </div>
+      <form action="logreq/" method= "post">
+        {% csrf_token %}
+        <div id="field_username"> <strong><span>Escribe tu nombre de usuario:</span></strong>
+          <input type="text" />
+        </div>
+        <div id="field_password"> <strong><span>Escribe tu contraseña:</span></strong>
+          <input type="text" />
+        </div>
+        <div id="button_enter">
+          <input type="image" src="images/userlogin_enter.gif" alt="Enter" class="button" />
+        </div>
+      </form>
+      <div id="userlogin_links"> <a href="#" id="register"><strong><span>Register >>></span></strong></a> <br />
+        <a href="#" id="notregister"><strong><span>Not Registered Yet?</span></strong></a> </div>
+    </div>
+    <div id="page_menu">
+        <ul>
+          <li class="online"><a href="#"><span>Regresar al menu principal</span></a><span></span></li>
+        </ul>
+      </div>
+</body>
+</html>
